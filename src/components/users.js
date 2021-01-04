@@ -1,6 +1,6 @@
 import React from 'react';
 import { List, Datagrid, TextField, EmailField } from 'react-admin';
-import MyUrlField from './MyUrlfield';
+import MyUrlField from '../fields/MyUrlfield';
 
 export const UserList = props => (
     <List {...props}>
